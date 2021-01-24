@@ -17,7 +17,7 @@
         sizes="(max-width: 1200px) 100vw, 1200px" />
     </div>
   </figure>
-  {{end}}-->
+  {{end}}
 
   <div class="post-inner thin">
     <div class="entry-content">
@@ -27,7 +27,8 @@
           <h2 class="has-text-align-center">{{ . | markdownify }}</h2>
         </div>
       </div>
-      {{ end }}
+      {{ end }}-->
+
       <div class="wp-block-columns columns alignwide">
         {{ range (where .Site.RegularPages "Section" "blog")}}
         <div class="column">
