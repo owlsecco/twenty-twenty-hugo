@@ -26,9 +26,9 @@
 }
 </style>
 
-<div class="row">
+<div class="row alignwide hastextaligncenter">
   {{ range (where .Site.RegularPages "Section" "blog")}}
-  <div class="column alignfull hastextaligncenter">
+  <div class="column">
     <figure class="wp-block-image alignfull size-full"><img src="{{ .Params.Image |absURL }}" alt="{{.Title }}" class="wp-image-37" /></figure>
     <h3>{{ .Title }}</h3>
     <p>{{ .PublishDate.Format "January 02, 2006"}}</p>
