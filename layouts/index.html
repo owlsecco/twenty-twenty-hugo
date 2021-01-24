@@ -28,7 +28,7 @@
         </div>
       </div>
       {{ end }}
-      {{ partial "posts.html" . }}
+      {{ partial "posts.html" .}}
       <div class="wp-block-columns columns alignwide">
         {{ range (where .Site.RegularPages "Section" "blog")}}
         <div class="column">
